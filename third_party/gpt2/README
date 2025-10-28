@@ -1,0 +1,11 @@
+This folder contains the original Apache 2.0 license for the GPT-2 model code,
+developed by OpenAI, Hugging Face, and NVIDIA.
+
+The file `trajectory_gpt2.py` in this repository includes code derived from
+the original GPT-2 implementation, which is licensed under the Apache License,
+Version 2.0. The full license text is provided in `third_party/gpt2/LICENSE`.
+
+For the original GPT-2 code and documentation, see:
+https://github.com/openai/gpt-2
+and
+https://github.com/huggingface/transformers
