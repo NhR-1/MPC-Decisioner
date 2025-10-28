@@ -5,19 +5,19 @@ This repository provides the code to implement the MPC-Decisioner framework prop
 
 ## Usage
 
-Install the required libraries by running
+Install the required libraries:
 
 ```bash
 pip install -e .
 ```
 
-Generate data to train MPC-Decisioner and CQL by running
+Generate data to train MPC-Decisioner and CQL:
 
 ```bash
 python data/generate_data.py
 ```
 
-Produce experiments with MPC-Decisioner and CQL by running 
+Produce experiments with MPC-Decisioner and CQL: 
 
 ```bash
 python experiments/experiment_mpc_decisioner.py   --dataset_path dataset_mpc_decisioner.pkl
