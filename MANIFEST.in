@@ -1,0 +1,3 @@
+include LICENSE
+include third_party/decision-transformer/LICENSE
+include third_party/gpt2/LICENSE
