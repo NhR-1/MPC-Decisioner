@@ -1,0 +1,5 @@
+This folder contains the original MIT license for the Decision Transformer codebase:
+https://github.com/kzl/decision-transformer
+
+The MPC Decisioner project adapts certain parts of the Decision Transformer training logic.
+These adaptations are located in the `mpc_decisioner/` and `experiments/` packages.
