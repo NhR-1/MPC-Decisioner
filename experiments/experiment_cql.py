@@ -220,12 +220,12 @@ def run_cql_experiment(args):
     n_epochs = n_full_epochs + (1 if last_chunk > 0 else 0)
 
     state_dim = env.observation_space.shape[0]
-    if variant["param_dim"] is not None:
-        param_dim = variant["param_dim"]
+    if args.param_dim is not None:
+        param_dim = args.param_dim
         print(f"Using explicit param_dim = {param_dim}")
     else:
-        param_dim = state_dim * variant["param_dim_multiplier"]
-        print(f"Using param_dim = state_dim * {variant['param_dim_multiplier']} = {param_dim}")
+        param_dim = state_dim * args.param_dim_multiplier
+        print(f"Using param_dim = state_dim * {args.param_dim_multiplier} = {param_dim}")
     device_str = "cuda" if device.startswith("cuda") else "cpu"
 
     print(f"\nStarting deterministic CQL training on {args.env.upper()} [{device_str}]")
